@@ -16,6 +16,8 @@ function palidrom(string){
     }else{
         console.log(`la parola non e' palindroma`)
     }
+    //return parola invertita
     return wordInverted;
 }
+
 console.log(palidrom(`anna`))
